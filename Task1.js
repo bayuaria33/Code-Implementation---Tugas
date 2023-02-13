@@ -21,6 +21,10 @@ function cekPalindrome(text) {
 }
 //cekPalindrome(`Step on no pets`.toLowerCase());
 
+
+/*Diberikan sebuah kalimat, ubah urutan kata-kata di dalam kalimat menjadi
+terbalik. Misalnya kalimat “Saya belajar Javascript”, output “Javascript belajar
+Saya” */
 function reverseWords(sentence){
     if(sentence.length){
         let tempSentence = [];
